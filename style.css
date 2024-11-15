@@ -18,25 +18,25 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    background-color: #ADBC9F;
+    background-color:#253a11;
 
 }
 
 .logo {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #12372A;
+    color:white;
 }
 .navbar a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 4rem;
     font-weight: 700;
-    color: #12372A;
+    color:white;
 }
 
 .navbar a:hover,
@@ -76,7 +76,7 @@ h3{
 
 }
 span{
-    color:#ADBC9F;
+    color:#446e1c;
     font-size:3rem;
 
 }
@@ -300,13 +300,15 @@ span{
 }
 
 .contact form .btn {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     padding: 1rem 2rem;
     border-radius: .8rem;
+    /* margin-left: 33rem; */
     cursor: pointer;
     transition: background 0.3s ease;
 }
+
 
  /* -------------------- footer ------------------------ */
 
@@ -380,6 +382,7 @@ span{
 @media(max-width:768px){
     #menu-icon {
         display: block;
+       
     }
 
     .navbar {
@@ -394,10 +397,12 @@ span{
         display: none;
         flex-direction: column;
         text-align: center;
+       
     }
 
     .navbar a {
         margin:0 2rem;
+        color: black;
     }
 
     .navbar.active {
@@ -443,6 +448,8 @@ span{
 
     #menu-icon {
         display: none;
+        
+       
     }
 }
 
