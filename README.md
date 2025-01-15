@@ -11,5 +11,6 @@ Interactive sections created using JavaScript.
 Project gallery showcasing my development work.
 Visit the Portfolio
 
-![image](https://github.com/user-attachments/assets/73d556d6-73a2-4e6a-ab0d-4af91a8b736d)
+![image](https://github.com/user-attachments/assets/1f2c3312-a81d-4e2a-ac14-45757aa5eb16)
+
 
