@@ -2,7 +2,9 @@ function myFunction() {
     let dots = document.getElementById("dots");
     let moreText = document.getElementById("more");
     let btnText = document.getElementById("readmore");
-  
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
     if (dots.style.display === "none") {
       dots.style.display = "inline";
       btnText.innerHTML = "Read more";
